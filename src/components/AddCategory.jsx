@@ -15,7 +15,6 @@ export const AddCategory = ({ onNewCategory }) => {
         if (inputValue.trim().length <= 1) {
             return;
         }
-        // setCategories((cat) => [inputValue, ...cat])
         onNewCategory(inputValue.trim());
         setInputValue('');
     }
