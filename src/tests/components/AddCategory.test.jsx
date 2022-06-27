@@ -11,8 +11,6 @@ describe('Tests in AddCategory component', () => {
         fireEvent.input(input, { target: { value: 'dragon ball' } });
 
         expect(input.value).toBe('dragon ball');
-
-        screen.debug()
     });
 
     test('Must to call onNewCategory if the input have a value', () => {

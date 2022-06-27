@@ -25,29 +25,3 @@ exports[`Test in GifExpertApp component check snapshot 1`] = `
   />
 </div>
 `;
-
-exports[`Test in GifExpertApp component should  1`] = `
-<div>
-  <h1>
-    GifExpertApp
-  </h1>
-  <form
-    aria-label="form"
-  >
-    <input
-      placeholder="Buscar Gifs"
-      type="text"
-      value=""
-    />
-  </form>
-  <h3>
-    One Punch
-  </h3>
-  <h2>
-    Cargando...
-  </h2>
-  <div
-    class="card-grid"
-  />
-</div>
-`;
